@@ -24,7 +24,7 @@ const UserSchema = new Schema({
         type: String
     }，
    isActive: {
-        boolean: false        
+        boolean: false
     }});
 
 // 添加用户保存时中间件对password进行bcrypt加密,这样保证用户密码只有用户本人知道
